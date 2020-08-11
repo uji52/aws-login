@@ -1,0 +1,31 @@
+{
+  "name": "aws-login",
+  "version": "1.0.0",
+  "description": "Login AWS Management Console",
+  "main": "index.js",
+  "dependencies": {
+    "aws-cli": "0.0.2",
+    "aws-sdk": "^2.725.0",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "setup": "sh setup.sh",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uji52/aws-login.git"
+  },
+  "keywords": [
+    "aws",
+    "sts",
+    "login"
+  ],
+  "author": "uji52",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/uji52/aws-login/issues"
+  },
+  "homepage": "https://github.com/uji52/aws-login#readme"
+}
